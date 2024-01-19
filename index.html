@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+
+  <body class="text-white bg-[#020617]">
+    <style>
+        li{
+            user-select: none;
+            background: #202C35;
+            margin-top: 300px;
+            width: 500px;
+            text-align: center;
+            padding: 4px;
+            margin: auto;
+        }
+        li:hover{
+            background-color: #0A1C2A;
+            cursor: pointer;
+        }
+    </style>
+      <div class="container mr-auto text-center">
+      <h1 class="font-extrabold text-teal-400 text-4xl py-4">Fetch y Filtrado</h1>
+      <input type="text" placeholder="search a word" id="searchInput"
+      class="bg-[#0f172a] px-8 py-2 rounded-md mb-4"
+      />
+      <ol id="users"></ol>
+    </div>
+    <script src="index.js"></script>
+
+  </body>
+</html>
